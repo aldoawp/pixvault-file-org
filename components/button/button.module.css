@@ -1,0 +1,26 @@
+.simpleButton {
+  /* Layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  border-radius: var(--border-rad);
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+  /* Styles */
+  background-color: var(--primary-background);
+  color: var(--text-white);
+  /* Animation */
+  transition: 0.3s ;
+}
+.simpleButton:hover {
+  background-color: #407dff;
+}
+.simpleButton:active {
+  outline-color: var(--primary-background);
+}
+
+/*
+ Media Breakpoints
+ Basic CSS animation
+*/
