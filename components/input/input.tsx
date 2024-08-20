@@ -14,17 +14,15 @@ export function InputForm({
 }) {
   return (
     <>
-      <form className="flex flex-col gap-1" action="#">
-        <label className={styles.label} htmlFor={label.toLowerCase()}>
-          {label}
-        </label>
-        <input
-          className={styles.simpleForm}
-          type={type}
-          placeholder={placeholder}
-          name={label.toLowerCase()}
-        />
-      </form>
+      <label className={styles.label} htmlFor={label.toLowerCase()}>
+        {label}
+      </label>
+      <input
+        className={styles.simpleForm}
+        type={type}
+        placeholder={placeholder}
+        name={label.toLowerCase()}
+      />
     </>
   );
 }
@@ -32,8 +30,10 @@ export function InputForm({
 export function RememberMe() {
   return (
     <div className="flex gap-2">
-      <input type="checkbox" name="rememberMe" />
-      <label className={styles.label} htmlFor="rememberMe">Remember me</label>
+      <input type="checkbox" name="rememberMe" id="rememberMe"/>
+      <label className={styles.label} htmlFor="rememberMe">
+        Remember me
+      </label>
     </div>
   );
 }
