@@ -1,4 +1,4 @@
-.simpleButton {
+.primary {
   /* Layout */
   display: flex;
   justify-content: center;
@@ -13,10 +13,32 @@
   /* Animation */
   transition: 0.3s ;
 }
-.simpleButton:hover {
+.primary:hover {
   background-color: #407dff;
 }
-.simpleButton:active {
+.primary:active {
+  outline-color: var(--primary-background);
+}
+
+.ghost {
+  /* Layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 20px;
+  border: 1px black solid;
+  border-radius: var(--border-rad);
+  /* Styles */
+  background-color: transparent;
+  color: var(--text-black);
+  /* Animation */
+  transition: 0.3s ;
+}
+.ghost:hover {
+  border-color: transparent;
+  background-color: lightgray;
+}
+.ghost:active {
   outline-color: var(--primary-background);
 }
 

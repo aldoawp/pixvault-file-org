@@ -9,6 +9,7 @@
   --primary-background: #2563EB;
   --border-rad: 0.5rem;
   --text-white: #FFF;
+  --text-black: #000;
 }
 
 /* @media (prefers-color-scheme: dark) {

@@ -1,0 +1,15 @@
+.avatar {
+  display: flex;
+  width: var(--sizing-8, 32px);
+  height: var(--sizing-8, 32px);
+  padding: var(--sizing-2, 8px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--sizing-2, 8px);
+  border-radius: 13332px;
+  background: lightgray;
+}
+
+.p {
+  
+}
